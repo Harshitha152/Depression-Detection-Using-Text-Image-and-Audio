@@ -1,78 +1,89 @@
-# Depression Detection from Text, Image & Speech using Deep Learning Algorithm
-## Introduction
+<h1 align="center">🧠 Depression Detection from Text, Image & Speech</h1>
 
-This project aims to develop a multimodal system that detects signs of depression using text, image, and speech inputs by leveraging deep learning techniques. The system integrates Natural Language Processing (NLP), Convolutional Neural Networks (CNN), and Recurrent Neural Networks (RNN) to analyze user data and predict depression levels.
+<p align="center">
+Deep Learning | NLP | Computer Vision | Speech Analysis
+</p>
 
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+<img src="https://img.shields.io/badge/Deep_Learning-102230?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-0A66C2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+</p>
 
-## Features
+---
 
-- **Text Analysis**: Uses NLP and sentiment analysis to evaluate user-written text.
-- **Image Analysis**: Employs CNNs to analyze facial expressions.
-- **Speech Analysis**: Extracts voice tone, pitch, and pauses to determine depressive speech patterns.
-- **Fusion Layer**: Combines predictions from all modalities for final classification.
+## 📌 Overview
 
-## Technologies Used
+This project is a multimodal depression detection system that analyzes text, facial expressions, and speech patterns using deep learning techniques to identify signs of depression.
 
+The system combines:
+- Natural Language Processing (NLP)
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+
+to process and analyze multiple input modalities for improved prediction accuracy and reliability.
+
+The project demonstrates practical applications of deep learning, sentiment analysis, speech processing, and computer vision in healthcare-focused AI systems.
+
+---
+
+## 🚀 Features
+
+✅ Text-Based Sentiment Analysis  
+✅ Facial Expression Recognition  
+✅ Speech Emotion Analysis  
+✅ Multimodal Deep Learning System  
+✅ CNN & RNN-Based Prediction  
+✅ Combined Fusion Layer Classification  
+✅ Audio, Text & Image Processing  
+✅ Performance Evaluation Metrics  
+
+---
+
+## 🛠️ Tech Stack
+
+### Machine Learning & AI
 - Python
-- TensorFlow / Keras
+- TensorFlow
+- Keras
+- Scikit-learn
+- NLTK
+
+### Computer Vision & Audio Processing
 - OpenCV
 - Librosa
-- Scikit-learn
-- Natural Language Toolkit (NLTK)
 
-## Installation
+### Deep Learning Techniques
+- CNN (Convolutional Neural Networks)
+- RNN (Recurrent Neural Networks)
+- Sentiment Analysis
+- Speech Feature Extraction
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/depression-detection.git
-   cd depression-detection
-2.**Create and activate a virtual environment**:
-  python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-3.**Install dependencies**:
-pip install -r requirements.txt
-## Dataset Sources:
-Text Dataset (Suicide Watch – Reddit comments labeled for depression):
+---
 
-🔗 https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch?select=Suicide_Detection.csv
+## 📂 Project Structure
 
-Image Dataset (Facial Emotion Recognition):
+```bash
+depression-detection/
+│── data/
+│── src/
+│── models/
+│── visuals/
+│── text_model.py
+│── image_model.py
+│── speech_model.py
+│── fusion_model.py
+│── README.md
+---
 
-🔗 https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
+## 👩‍💻 Author
 
-Speech Dataset (RAVDESS Emotional Speech Audio):
+### Harshitha Mekala
 
-🔗 https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
-## description:
-Text: User transcripts or responses.
+Recent Computer Science Graduate passionate about Python, SQL, Power BI, Machine Learning, and Data Analytics.
 
-Image: Facial expression images collected during interviews.
-
-Speech: Audio recordings with depressive and non-depressive speech.
-
-Datasets should be placed in the data/ directory structured by modality.
-## How to Run
-1. **Train individual model**:
-   python src/text_model.py
-python src/image_model.py
-python src/speech_model.py
-2.**Run the fusion model**:
-   python src/fusion_model.py
-3.**Predict using new data**:
-   Provide input in all three formats (text, image, speech), and the system will output a depression classification.
-  ## Evaluation Metrics
-Accuracy
-Precision, Recall
-F1 Score
-## Final Result:
-| **Modality** | **Algorithm**                      | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
-| ------------ | ---------------------------------- | ------------ | ------------- | ---------- | ------------ |
-| **Image**    | CNN (Convolutional Neural Network) | 97.21%       | High          | High       | High         |
-| **Speech**   | CNN                                | 97.56%       | High          | High       | High         |
-| **Text**     | Random Forest                      | 95.00%       | High          | High       | High         |
-
-## Future Enhancements
-Integration with real-time chatbots.
-Deployable mobile/web app.
-Larger multimodal datasets.
-
+🔗 GitHub: https://github.com/Harshitha152  
+🔗 LinkedIn: https://www.linkedin.com/in/harshitha-mekala15
