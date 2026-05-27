@@ -140,3 +140,6 @@ Computer Science Engineering Graduate specializing in Data Science with interest
 
 🔗 GitHub: https://github.com/Harshitha152
 🔗 LinkedIn: https://www.linkedin.com/in/harshitha-mekala15
+🔗 Email: harshithamekala15@gmail.com
+
+
