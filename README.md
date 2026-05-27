@@ -1,7 +1,7 @@
 <h1 align="center">🧠 Depression Detection Using Text, Image & Audio</h1>
 
 <p align="center">
-Machine Learning | NLP | Computer Vision | Audio Processing
+Machine Learning | NLP | Image Processing | Audio Processing
 </p>
 
 <p align="center">
